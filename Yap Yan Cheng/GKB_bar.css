@@ -1,0 +1,109 @@
+@media only screen and (max-width: 1920px) {
+    .footer nav {
+        float: left;
+        width: auto;
+        padding-left: 70px;
+        text-decoration: none;  
+        font-size: 110%;
+      }
+       
+      .footer {
+        color:black;
+        display: grid;
+        grid-template-columns: repeat(5, 237px);
+        background-color: #f0f0f0 ; 
+        padding: 10px; 
+        grid-template-rows: auto;
+      }
+      
+      .footer ul {
+        background-color: #f0f0f0; 
+        list-style: none; 
+        padding: 0; 
+      }
+      
+      .footer ul a {
+        text-decoration: none; 
+      }
+      
+      .footer {
+        margin: 0;
+        padding-left: 0;
+      }
+      
+      #ending {
+        font-size: 14px;
+        padding-left: 90px;
+        grid-column: 1 / span 5;
+      }
+    }
+    
+      @media only screen and (max-width: 1024px) {
+        
+    
+         .footer nav {
+          float: left;
+          width: auto;
+          padding-left: 30px;
+          text-decoration: none;  
+        }
+         
+        .footer {
+          width:1024px;
+          display: grid;
+          grid-template-columns: repeat(5, 185px);
+          background-color: #f0f0f0 ; 
+          padding: 20px; 
+          grid-template-rows: auto;
+        }
+        
+        .footer ul {
+          background-color: #f0f0f0; 
+          list-style: none; 
+          padding: 0; 
+        }
+        
+        .footer ul a {
+          font-size: 15px;
+          text-decoration: none; 
+        }
+        
+        .footer {
+          margin: 0;
+          padding-left: 0;
+        }
+      
+        #ending {
+          font-size: 14px;
+          padding-left: 65px;
+          grid-column: 1 / span 5;
+          color:black;
+        }
+      }
+    
+    .footer a{
+        list-style: none;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 5px;
+        padding-bottom:10px;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .footer a::after{
+        content:'';
+        height:3px;
+        width:0;
+        background: rgb(54, 223, 235);
+        position: absolute;
+        left:0px;
+        bottom:-5px;
+        transition: 0.5s;
+    }
+    
+    .footer a:hover::after{
+        width:100%;
+    }
+      

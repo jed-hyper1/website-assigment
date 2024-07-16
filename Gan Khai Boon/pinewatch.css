@@ -1,0 +1,211 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;  
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    transition: background-color 0.5s ease;
+}
+
+.part1 {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .part1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.part1 > p{
+    font-size: 25px;
+}
+
+.part2 {
+    color: black;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .part2 {
+        color: black;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+#title {
+    text-align: center;
+    font-size: 70px;
+}
+
+#pinewatch {
+    float: right;
+    height: 620px;
+}
+
+#er {
+    font-size: 60px;
+}
+
+#chip {
+    display: block;
+    margin-left: 150px;
+    margin-right: auto;
+}
+
+#chipDes {
+    padding-left: 500px;
+}
+
+#clenchFist {
+    font-size: 50px;
+    text-align: center;
+}
+
+#fist {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gestureDes {
+    padding-left: 250px;
+    font-size: 20px;
+}
+
+#healthPic {
+    display: block;
+    margin-left: 150px;
+    margin-right: auto;
+}
+
+#healthDes {
+    font-size: 20px;
+}
+
+#strap{
+    font-size: 20px;
+}
+
+.strapstyle > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.strapstyle > p {
+    text-align: center;
+}
+#loop{
+    width: 80%;
+}
+
+#sport {
+    width: 40%;
+}
+
+#stainlessSteel {
+    width: 50%;
+}
+
+#special{
+    width: 30%;
+}
+
+#holdingPine {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+div.information {
+    font-size: 15px;
+    text-align: center;
+}
+
+#inforp9 {
+    width: 5%;
+}
+
+#inforhealth {
+    width: 7%;
+}
+
+#inforcycle {
+    width: 6%;
+}
+
+#inforsos {
+    width: 8%;
+}
+
+#inforwater {
+    width: 7%;
+}
+
+#inforgps {
+    width: 10%;
+}
+
+#inforbattery {
+    width: 7%;
+}
+
+.bar a {
+    color: white;
+}
+
+.footer {
+    color: black;
+}
+
+.bar a:link {
+    color: white;
+}
+
+.bar a:active {
+    color: white;
+}
+
+
+.bar a:hover {
+    color: white;
+}
+
+.bar a:visited{
+    color: white;
+}
+
+.footer a, a:link, a:hover, a:visited, a:active {
+    color: black;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  #buy {
+    border: 2px solid grey;
+    background-color: white;
+    color: black;
+    transition: border 0.6s ease;
+  }
+
+  #buy:hover {
+    border: 2px solid black;
+    transition: border 0.6s ease;
+  }

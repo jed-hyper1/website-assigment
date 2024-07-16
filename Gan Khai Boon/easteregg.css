@@ -1,0 +1,80 @@
+#easteregg {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#smurt {
+    width: 80px;
+    opacity: 0.3;
+    position: absolute;
+    top: 330px;
+    left: 1000px;
+    user-select: none;
+}
+
+#monday_cat {
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    opacity: 0.3;
+}
+
+#strawberry {
+    width: 100px;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    opacity: 0.4;
+}
+
+#owl {
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 1080px;
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 1024px) {
+    #smurt {
+        width: 80px;
+        opacity: 0.3;
+        position: absolute;
+        top: 330px;
+        left: 730px;
+        user-select: none;
+    }
+
+    #monday_cat {
+        width: 100px;
+        position: absolute;
+        top: 100px;
+        left: 150px;
+        opacity: 0.3;
+    }
+
+    #strawberry {
+        width: 100px;
+        position: absolute;
+        top: 300px;
+        left: 200px;
+        opacity: 0.4;
+    }
+
+    #owl {
+        width: 100px;
+        position: absolute;
+        top: 100px;
+        left: 800px;
+        opacity: 0.5;
+    }
+
+}
+
+#findme {
+    text-align: center;
+}
+

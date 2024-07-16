@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+ 
+    margin: 0 auto;
+}
+
+        #button{
+            border-style: none;
+            background-color: #B0B0B0;
+            margin-top: -50px;
+        }
+
+        body{
+            background-color: #B0B0B0;
+            max-width: 1024px;
+            max-height: 764px;
+        }
+
+        
+.slideshow {
+    animation: slideshow 40s infinite cubic-bezier(0.13, -0.17, 0.71, 1.11);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: -600px;
+    height: 440px;
+    width: 900px;
+   border-radius: 20px;
+}
+
+@keyframes slideshow {
+    0% {
+        background-image: url(../newimage/4YNXPclxS81VbHrt.png);
+    }
+    10% {
+        background-image: url(../newimage/8f58817e5b398448538afd2c09e5035e.jpg);
+    }
+
+    20% {
+        background-image: url(../newimage/a12e5c333ec2bdb81d75c7ddd2c6b5c2.png);
+    }
+    50% {
+        background-image: url(../newimage/nrBxNcReGDpbI5We.png);
+    }
+    60% {
+        background-image: url(../newimage/POCO-X4GT-banner-en-add.jpg);
+    }
+    70% {
+        background-image: url(../phone/photo_2023-08-27_15-30-04.jpg);
+    }   
+    80% {
+        background-image: url(../newimage/POCO-X5-5G-PC-Banner.jpg);
+    }
+    90% {
+        background-image: url(../phone/photo_2023-08-27_15-30-10.jpg);
+    }
+    100% {
+        background-image: url(../phone/photo_2023-08-27_15-30-10.jpg);
+    }
+}
+
+      
+
+        .container img {
+               width: 60%;
+        }
+
+        
+        .unique img{
+
+            width: 95%;
+            margin-left: -70px;
+        }
+
+        .container h1{
+         
+            margin: 50px -30px 20px;
+            text-transform: uppercase;
+            
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 400px);
+            margin: 0 80px 0;
+            column-gap: 100px;
+            grid-template-rows: repeat(3,auto);
+          
+        }
+
+        header{
+            margin: 0 630px 0;
+        }
+
+        header h1{
+         margin: 30px -220px 30px;
+        }
+
+        @keyframes moving{
+
+            0%{transform: translateX(-5px);}
+            50%{transform: translateX(0px);}
+            80%{transform: translateX(10px);}
+            100%{transform: translateX(-15px);}
+        }
+
+        .img img{
+            margin-left: -90px;
+            /* background-size: 100% 100%; */
+            width: 250%;
+            height: auto;
+            animation: moving 7s infinite;
+            margin-top: -50px;
+            
+        }
+
+        .text{
+            margin-top:300px ;
+            width: 400px;
+            margin-left: -110px;
+            z-index: 1000;
+        }
+
+        #lastproduct h1{
+
+            width: 400px;
+        }
+
+        #lastproduct img{
+
+            width: 90%;
+        }
+
+        .bar li {
+            display: block;
+            float: left;
+            width: 10%;
+            padding-left: 50px;
+            text-align: center;
+            text-decoration: none;
+            padding-top: 30px;
+        }
+        
+        .bar::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        
+        #icon_white {
+            position: absolute;
+            top: 0px;
+            left: 80px;
+            width: 1.5%;
+        }
+        
+        #icon_black {
+            position: absolute;
+            top: 0px;
+            left: 65px;
+            width: 52px;
+        }
+        
+        .footer nav {
+            float: left;
+            width: auto;
+            padding-left: 20px;
+            text-decoration: none;  
+        }
+        
+        .footer {
+            display: grid;
+            grid-template-columns: repeat(6, 150px);
+            background-color: #000000 ; 
+            padding:  40px 20px 0 70px; 
+          
+           
+        }
+        
+        .footer ul {
+            background-color: #000000; 
+            list-style: none; 
+            padding: 0 0 20px 0; 
+        }
+        
+        .footer ul a {
+            text-decoration: none; 
+            color: #FFFFFF;
+        
+            
+        }
+        
+        .footer p{
+            color: #FFFFFF;
+        }
+        
+        .footer a{
+            margin-bottom: 50px;
+        }
+        
+        
+        .bar li {
+            display: block;
+            float: left;
+            width:auto;
+            padding-left: 60px;
+            text-align: center;
+            text-decoration: none;
+         
+          }
+          
+        .bar  a {
+            text-decoration: none;
+            text-align: center;
+            color: black;
+          }

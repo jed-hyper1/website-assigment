@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="form.css" rel="stylesheet">
+    <title>membership</title>
+</head>
+<body class="back">
+    <script src="form.js"></script>
+ <div class="wrapper">
+ <form  method="GET" enctype="multipart/form-data">
+    <legend><b>membership</b></legend>
+
+    <div class="input">
+        <input type="text" name="name" id="name" placeholder="Username"  required>
+    </div>
+
+    <div class="input">
+        <input type="password" name="password" id="Password" placeholder="Password" required>
+    </div>
+
+    <div class="input">
+        <input type="email" name="email" id="email" placeholder="E-mail" required>
+    </div>
+
+    <div class="input">
+        <input type="text" name="bankaccount" id="bankaccount" placeholder="Bankaccount">
+    </div>
+
+    <div class="chb">
+        <label><input type="checkbox"/>Remember me</label>
+    </div>
+
+    <button class="submit" type="submit">Submit</button>
+ </form>
+ </div>
+</body>
+

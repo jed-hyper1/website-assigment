@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="create.css" rel="stylesheet">
+
+</head>
+<body class="back">
+    <script src="create.js"></script>
+    <div class="wrapper">
+    <form>
+            <legend><b>Create a new account</b></legend>
+
+            <div class="input">
+                <input type="text" name="name" id="name" placeholder="Username" required>
+            </div>
+
+            <div class="input">
+                <input type="password" name="password" id="password" placeholder="password" required>
+            </div>
+            
+            <div class="input">             
+                <input type="date" name="date" id="date" min="2005-12-31"placeholder="Birthday" required>
+            </div>
+        
+            <div class="input">
+                <input type="tel" name="phone" id="phone" placeholder="Phone number" required>
+            </div>
+        
+            <div class="input">
+                <input type="password" name="passwordBox" id="passwordBox" placeholder="Enter again your password"required>
+            </div>
+
+            <div class="chb">
+                <label><input type="checkbox"/>Remember me</label>
+                <a href="$">Forgot password</a>
+            </div>
+            
+            <button class="submit" type="submit">Submit</button>
+    </form>
+    </div>
+</body>

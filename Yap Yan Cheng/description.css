@@ -1,0 +1,16 @@
+html{
+    max-width:1024px;
+    max-height:768px;
+    color:white;
+    background-color: black;
+}
+
+p{
+    line-height: 1.5em;
+    font-size:20px;
+}
+
+div{
+    border:1px solid white;
+    padding:10px;
+}

@@ -1,0 +1,37 @@
+ a {
+    text-decoration: none;
+   
+ }
+ h1 {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    clear: left;
+    font-size: 350%;
+ }
+ 
+ #p3310 {
+    float: right;
+    width: 40%;
+    height: auto;
+    clear: left;
+    padding-right: 200px;
+    padding-top: 70px;
+ }
+
+#mainMore {
+   position: absolute;
+   top: 400px;
+   left: 150px;
+ }
+
+ #mainBuy {
+   position: absolute;
+   top: 400px;
+   left: 300px;
+ }
+
+ footer {
+   position: absolute;
+   bottom: 0;
+ }

@@ -1,0 +1,421 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;  
+  margin: 0;
+  overflow-x: hidden;
+} 
+
+.slideshow_product {
+  padding-top: 80px;
+  max-width: 1000px;
+  width: 100%; /* Set a fixed width to make it constant */
+  height: 650px; /* Set a fixed height to make it constant */
+  position: relative;
+  margin: auto;
+}
+
+.slideshow_product img {
+  position: relative;
+  left: 40px;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  user-select: none;
+  border: 1px solid grey;
+  box-shadow: 1px 1px grey;
+  display: none;
+}
+
+.prev {
+  left: -20px;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  border: solid 1px none;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Caption text */
+.text {
+color: black;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 500px;
+left: 600px;
+width: 100%;
+
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#learnmore {
+  background-color: black;
+  color: white;
+  transition: background-color 0.6s ease;
+}
+
+#buy {
+  border: 2px solid grey;
+  background-color: white;
+  color: black;
+  transition: border 0.6s ease;
+}
+
+#learnmore:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color 0.6s ease;
+}
+
+#buy:hover {
+  border: 2px solid black;
+  transition: border 0.6s ease;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+user-select: none;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}
+
+#pinewatch_icon {
+  width: 25px;
+  position: relative;
+  left: -85px;
+  top: 70px;
+}
+
+.PineWatch {
+  padding-bottom: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#pine_home {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.PineWatch a {
+  color: orchid;
+}
+
+.PineWatch h1 {
+  position: relative;
+  left: 20px;
+  bottom: -10px;
+}
+
+#series9 {
+  color: red;
+  letter-spacing: 2px;
+}
+
+#er {
+  font-size: 30px;
+}
+
+.amani h1 {
+  position: relative;
+  top: -750px;
+  left: 708px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .amani h1 {
+    /* Your new styles for screens <= 1024px here */
+    position: relative;
+    top: -500px;
+    left: 456px;
+  }
+}
+
+.word_amani {
+  background: linear-gradient(to right, fuchsia, blue);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.amani p {
+  font-size: 20px;
+  position: relative;
+  top: -450px;
+  left: 490px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .amani p {
+    font-size: 20px;
+    position: relative;
+    top: -330px;
+    left: 250px;
+  }
+}
+
+.explore_pine {
+  padding-left: 100px;
+  position: relative;
+  top: -100px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .explore_pine {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .about,
+  .member,
+  .join {
+    display: block !important; /* Display each element on a separate line */
+    margin: 10px; /* Add some spacing between them */
+    
+  }
+}
+
+.about,
+.member,
+.join {
+  display: inline-block; /* Display the elements in the same line */
+  vertical-align: top; /* Align them to the top of the container */
+  margin: 10px; /* Add some spacing between them */
+}
+
+.about img {
+  width: 400px;
+}
+
+.member {
+  position: relative;
+  top: 20px;
+}
+
+.join img {
+  width: 400px;
+}
+
+.join {
+  position: relative;
+  top: 80px;
+}
+
+.support {
+  padding-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+}
+
+@media only screen and (max-width: 1024px) {
+  .support {
+    padding: 0;
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+  }
+}
+
+.arrow {
+  float: right;
+}
+
+.sub_support a:hover .arrow {
+  position: relative;
+  right: -20px;
+}
+
+.support a {
+  color: black;
+  font-size: 20px;
+}
+
+.support a:hover {
+  text-decoration: underline;
+}
+
+.support h1 {
+  position: relative;
+  top: -30px;
+}
+
+.V5 {
+  padding-left: 200px;
+}
+
+.V5 h1 {
+  position: relative;
+  left: 700px;
+  top: 300px;
+  line-height: 50px;
+}
+
+.V5 p {
+  position: relative;
+  left: 700px;
+  top: 280px;
+}
+
+.V5 > .button {
+  position: relative;
+  top: -250px;
+  left: 265px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .V5 {
+    padding-left: 20px;
+  }
+
+  .V5 h1 {
+    position: relative;
+    left: 525px;
+    top: 300px;
+    line-height: 50px;
+  }
+  
+  .V5 p {
+    position: relative;
+    left: 525px;
+    top: 280px;
+  }
+  
+  .V5 > .button {
+    position: relative;
+    top: -250px;
+    left: 90px;
+  }
+}
+
+.V4 img {
+  position: relative;
+  left: 900px;
+}
+
+.V4 h1 {
+  position: relative;
+  left: 200px;
+  top: 300px;
+  line-height: 50px;
+}
+
+.V4 p {
+  position: relative;
+  left: 200px;
+  top: 280px;
+}
+
+.V4 > .button {
+  position: relative;
+  top: -250px;
+  left: -230px;
+}
+
+#otherModel {
+  position: relative;
+  left: -450px;
+  top: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .V4 img {
+    position: relative;
+    left: 570px;
+  }
+  
+  .V4 h1 {
+    position: relative;
+    left: 80px;
+    top: 300px;
+    line-height: 50px;
+  }
+  
+  .V4 p {
+    position: relative;
+    left: 80px;
+    top: 280px;
+  }
+  
+  .V4 > .button {
+    position: relative;
+    top: -250px;
+    left: -360px;
+  }
+  
+  #otherModel {
+    position: relative;
+    left: -580px;
+    top: 50px;
+  }
+}
+
+a:hover .moreArrow {
+  position: relative;
+  right: -10px;
+}
+
+.bar a:link, a:hover, a:visited, a:active {
+  color: black;
+}
+
+#owl {
+  width: 100px;
+  opacity: 0.6;
+}
+
+.easteregg {
+  padding-left: 100px;
+}

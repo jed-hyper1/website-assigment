@@ -1,0 +1,35 @@
+
+/* General design */
+body {
+    background-image: url('Pineapple_wallpaper_pink.jpg'); 
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #f00cf8; 
+}
+
+/* Receipt */
+fieldset {
+    background-image: url('Wood_texture.jpg');
+    background-size: cover;
+    border: 5px solid rgb(48, 48, 48);
+
+}
+
+#receiptForm legend {
+    font-size: 3em;
+}
+
+#receiptForm h2 {
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+#receiptForm p {
+    font-size: 1.4em;
+}
+
+#receiptForm ul {
+    font-size: 2em;
+    
+}

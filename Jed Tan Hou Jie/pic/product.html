@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="product.css" rel="stylesheet" />
+    <link href="bar.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>PineWatch Series 9</title>
+    <link href="/Home/pic/iconBig.png" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+<script>
+    window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+    const triggerPoint = 4000;
+
+    if (scrollTop > triggerPoint) {
+    document.body.style.backgroundColor = 'white';
+    } else {
+    document.body.style.backgroundColor = 'black';
+    }
+
+    sections.forEach((section, index) => {
+    const sectionTop = section.getBoundingClientRect().top;
+    const translateValue = sectionTop < triggerPoint ? '0' : '100px';
+    section.style.transform = `translateY(${translateValue})`;
+    });
+});
+</script>
+
+<header>
+<div class="bar">
+<nav>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Phone</a></li>
+        <li><a href="">PineWatch</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Support</a></li>
+        <li><a href="">Cart</a></li>
+        <li><a href="">alala</a></li>
+    </ul>
+</nav>
+</div>
+</header>
+
+<div class="part1">
+<br><h1 id="title">PineWatch Series 9</h1>
+<img id="pinewatch" src="/Home/pic/pinewatch.png" alt="PineWatch Series 9" />
+<br><br><br><br><br><br><p id="er">Smarter<br>Mightier<br>Healthier</p>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p>Our most powerful chip in PineWatch ever.<br>The best choice of smart watch.</p>
+<img id="holdingPine" src="/Home/pic/pine_with_watch.webp" alt="holdingPine" /><br><br><br><br><br><br><br><br>
+
+<h1>The all-new chip P9</h1>
+<img id="chip" src="/Home/pic/chipP9.png" alt="chipP9" />
+<p id="chipDes">Pine R&D Department develop a custom Pine silicon makes PineWatch Series 9 more capable, intuitive and faster. 
+The new dual-core CPU has 8.7 billion transistors — 70 per cent more than the P8 chip.
+The brand new P9 processes machine learning tasks up to two times faster.
+It enables a number of innovations, including a new gesture — clench fist.
+</p>
+<br><br><br><br><br><br><br>
+<h1>New gesture</h1>
+<h1 id="clenchFist">Clench Fist</h1>
+<img id="fist" src="/Home/pic/fists.png" alt="fists" />   
+<p id="gestureDes">Gestures make PineWatch easy to use anytime,<br> especially when your hands are full. 
+Just clench<br> a fists to answer a call,open a notification, play<br> or stop music, turn off alarm, and more.
+</p><br><br><br><br><br><br><br><br><br>
+
+<h1>Health care</h1>
+<img id="healthPic" src="/Home/pic/healthCare.png" alt="Health Care" />
+<p id="healthDes">PineWatch helps you better understand your mental and physical health.
+PineWatch has powerful apps <br>that make it the best device for healthy life.
+PineWatch always checks for unusually high or low heart rate <br>in background, 
+and send notification to user to prevent serious underlying condition.
+Beside that, when a <br>hard fall is detacted with PineWatch, an alert appears and allow user to easily call emergency services.
+</p>
+<br><br><br><br><br>
+</div>
+
+<div class="part2">
+<h1>Choose your own style</h1>
+<p id="strap">We provide a variety of watch straps for buyers to choose</p>
+<div class="strapstyle">
+<img id="loop" src="/Home/pic/loop.png" alt="Loop" />
+<p>Loop</p><br><br><br>
+<img id="sport" src="/Home/pic/sport.png" alt="Sport" />
+<p>Sport</p><br><br><br>
+<img id="magneticLink" src="/Home/pic/magneticLink.png" alt="Magnetic Link" />
+<p>Magnetic Link</p><br><br><br>
+<img id="stainlessSteel" src="/Home/pic/stainlessSteel.png" alt="Stainless Steel" />
+<p>Stainless Steel</p><br><br><br>
+<img id="special" src="/Home/pic/special_strap.png" alt="Special Pine" />
+<p>Special Edition</p><br><br><br>
+</div>
+
+<h1>Quick Look</h1>
+<div class="information">
+<ul>
+    <li><img id="inforp9" src="/Home/pic/p9.png" alt="p9"><br>P9 chip</li><br><br><br><br>
+    <li><img id="inforhealth" src="/Home/pic/health_icon.png" alt="Health" /><br>Health app<br><br>High and low heart rate notifications
+        <br>Irregular rhythm notifications</li><br><br><br><br><br>
+    <li><img id="inforcycle" src="/Home/pic/cycle_icon.png" alt="cycle" /><br>Cycle Tracking</li><br><br><br><br>
+    <li><img id="inforsos" src="/Home/pic/sos_icon.png" alt="SOS" /><br>Emergency SOS<br>Fall Detection & Crash Detection</li><br><br><br><br>
+    <li><img id="inforwater" src="/Home/pic/waterproof_icon.png" alt="Water resistant" /><br>Water resistant<br>Swimproof</li><br><br><br><br>
+    <li><img id="inforgps" src="/Home/pic/gps_icon.png" alt="GPS" /><br>GPS<br>Available mobile connectivity</li><br><br><br><br>
+    <li><img id="inforbattery" src="/Home/pic/battery_icon.png" alt="battery" /><br>Up to 24 hours<br>Up to 48 hours in Low Power Mode<br>Fast charging</li>
+</ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,410 @@
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    overflow-x: hidden; 
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, fuchsia, pink);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: -1;
+  }
+
+  body.gradient-background::before {
+    opacity: 1; 
+  }
+
+@keyframes rainbow {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+}
+  
+#title {
+    font-size: 80px;
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    animation: rainbow 4s linear infinite;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1024px) {
+    #title {
+        
+        font-size: 80px;
+        position: absolute;
+        top: 170px;
+        left: 390px;
+        animation: rainbow 4s linear infinite;
+        background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        display: inline-block;
+    }
+}
+
+#amanimain {
+    width: 100%;
+    display: block;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .description {
+        padding: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+.multicolor {
+    background-image: linear-gradient(to right, fuchsia, fuchsia, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#opening {
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #opening {
+        font-size: 30px;
+        padding: 0;
+        padding-left: 220px;
+        padding-right: 200px;
+    }
+}
+
+ #amani_icon {
+    float: left;
+ }
+
+ @media only screen and (max-width: 1024px) {
+    #amani_icon {
+    float: left;
+    width: 350px;
+ }
+ }
+
+ #amani_simpleDes {
+    font-size: 40px;
+    margin-left: 500px;
+ }
+
+ @media only screen and (max-width: 1024px) {
+    #amani_simpleDes {
+        font-size: 33px;
+        margin-left: 400px;
+     }
+ }
+
+ .text_function {
+    display: flex;
+    border: 0px;
+    border-radius: 45px;
+    background-color: white;
+    padding: 20px; 
+    margin: 0 auto;
+}
+
+.text_content {
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+}
+
+.text_function img {
+    width: 500px;
+    margin-right: 10px; 
+}
+
+.text_function p {
+    flex: 1; 
+}
+
+.remind_find {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.remind_function, .find_function {
+    width: 48%; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    border: 0px; 
+    border-radius: 25px;
+    background-color: white;
+}
+
+.remind_function {
+    position: relative; 
+}
+
+.remind_function img {
+    width: 450px;
+    position: absolute;
+    bottom: 30px;
+    left: 15px; 
+}
+
+@media only screen and (max-width: 1024px) {
+    .remind_function img {
+        width: 400px!important;
+        position: absolute;
+        bottom: 30px;
+        left: 15px; 
+    }
+}
+
+.find_function img {
+    width: 400px;
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .find_function img {
+        width: 350px!important;
+        padding-left: 30px;
+    }
+}
+
+.find_function {
+    position: relative; 
+}
+
+.function1 p {
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.word_amani {
+    background: linear-gradient(to right, fuchsia, fuchsia, blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#car, #more {
+    font-size: 80px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #car, #more {
+        font-size: 60px;
+    }
+}
+
+#car_des {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #car_des {
+        font-size: 25px;
+    }
+}
+
+.car_function img {
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .car_function img {
+        width: 900px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+    }
+}
+
+.car_call, .car_sharing {
+    width: 48%; 
+    height: 400px;
+    box-sizing: border-box; 
+    padding: 10px; 
+    border: 0px; 
+    border-radius: 25px;
+    background-color: white;
+}
+
+.car_call {
+    position: relative; 
+}
+
+.car_sharing {
+    position: relative; 
+}
+
+.car_call img {
+    width: 450px;
+    position: absolute;
+    bottom: 50px;
+    left: 15px; 
+}
+
+@media only screen and (max-width: 1024px) {
+    .car_call img {
+        width: 400px;
+        position: absolute;
+        bottom: 50px;
+        left: 15px; 
+    }
+}
+
+.car_sharing img {
+    width: 450px;
+    padding-left: 15px;
+    position: absolute;
+    bottom: 50px;
+    left: 15px; 
+}
+
+@media only screen and (max-width: 1024px) {
+    .car_sharing img {
+        width: 400px;
+        padding-left: 10px;
+        position: absolute;
+        bottom: 50px;
+        left: 15px; 
+    }
+}
+
+.call_sharing {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.function2 p {
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.socialcredit {
+    color: red;
+}
+
+.amani_amani {
+    border: 0px;
+    border-radius: 45px;
+    background-color: black;
+    padding: 20px; 
+    margin: 0 auto;
+    color: white;
+}
+
+.amani_amani img {
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .amani_amani img {
+        width: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.amani_alarm, .amani_weather {
+    position: relative;
+    width: 48%; 
+    height: 500px;
+    box-sizing: border-box; 
+    padding: 10px; 
+    border: 0px; 
+    border-radius: 25px;
+    background-color: white;
+}
+
+.alarm_weather {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.amani_alarm img {
+    width: 450px;
+    position: absolute;
+    bottom: 100px;
+    left: 15px; 
+}
+
+@media only screen and (max-width: 1024px) {
+    .amani_alarm img {
+        width: 400px;
+        position: absolute;
+        bottom: 100px;
+        left: 15px; 
+    }
+}
+
+.amani_weather img {
+    width: 300px;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .amani_weather img {
+        width: 300px;
+        position: absolute;
+        bottom: 50px;
+        left: 70px;
+    }
+}
+
+.function3 p {
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.bar a:link, a:hover, a:visited, a:active {
+    color: black;
+  }
+  
+  .footer a, a:link, a:hover, a:visited, a:active {
+    color: black;
+}

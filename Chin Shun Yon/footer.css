@@ -1,0 +1,31 @@
+
+/* General design */
+footer {
+    background-color: black;
+    color:white;
+
+    text-align: center;
+
+    border: 5px solid gold;
+    border-image: url('Gold.jpg') 1 round;
+}
+
+
+.footer-content h2 {
+    text-decoration: underline;
+}
+
+.footer-section-links ul {
+    text-align: center;
+    list-style: none;
+}
+
+.footer-section-contact ul {
+    text-align: center;
+    list-style: none;
+}
+
+.footer-bottom {
+    border-top: 5px solid gold;
+    border-image: url('Gold.jpg') 1 round;
+}

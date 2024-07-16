@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+@media only screen and (max-width:1920px){
+body{
+    width:95%;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:auto;
+    margin-right: auto;
+    word-spacing: 3px;
+    display:flex;
+    display:-webkit-flex;
+    -webkit-flex-flow:row wrap;
+    flex-flow:row wrap;
+    background-image: url(backgroundblue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.icon{
+    width:150px;
+    float:left;
+    height: 50px;
+    padding-top: 25px;
+}
+
+.navigation{
+    width:100%;
+    height:120px;
+    margin:auto;
+    padding:5px;
+    display:flex;
+    text-align: center;
+}
+
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+    padding: 22px;
+}
+
+.navigation ul li a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigation ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    background: rgb(54, 223, 235);
+    position: absolute;
+    left:0px;
+    bottom:-5px;
+    transition: 0.5s;
+}
+
+.navigation ul li:hover::after{
+    width:100%;
+}
+
+
+h1{
+    padding-top: 20px;
+    clear:both;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px purple;
+    padding-bottom: 10px;
+}
+
+dt{
+    text-transform: uppercase;
+    font-size:20px;
+    font-weight: bold;
+    margin:auto;
+    padding:10px;
+    background-color: rgb(69, 34, 167);
+}
+
+dl{
+    padding:20px;
+    margin:auto;
+    font-size:1.2em;
+}
+
+dd{
+    padding:20px;
+}
+
+iframe{ 
+    width:90%;
+    height:20%;        
+    border:0;
+    padding:30px;
+}
+
+p{
+    font-size: 24px;
+}
+
+video{
+    padding:40px;
+    width:50%;
+    height: 50%;
+}
+
+}
+
+@media only screen and (max-width:1024px){
+
+
+    h1{
+        font-size:2em;
+    }
+    
+    p{
+        font-size:20px;
+    }
+
+    h2{
+        font-size:22px;
+    }
+
+    .navigation ul li{
+        display:none;
+    }
+    
+    dt{
+        text-transform: uppercase;
+        font-size:1.2em;
+        font-weight: bold;
+        margin:auto;
+        padding:10px;
+        background-color: rgb(69, 34, 167);
+    }
+    
+    dl{
+        padding:15px;
+        margin:auto;
+        font-size:1em;
+    }
+    
+    dd{
+        padding:15px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width:640px){
+
+    dt{
+        font-size:16px;
+    }
+    
+    h1{
+        font-size:1.5em;
+    }
+
+    h2{
+        font-size:18px;
+    }
+
+    p{
+        font-size:18px;
+    }
+}

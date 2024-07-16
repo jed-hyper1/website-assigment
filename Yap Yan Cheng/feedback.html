@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../Yap Yan Cheng/feedback.css" rel="stylesheet" type="text/css"/>
+        <link href="../Yap Yan Cheng/GKB_bar.css" rel="stylesheet" type="text/css"/>
+        <script src="../Yap Yan Cheng/form.js" ></script>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Feedback</title>
+    </head>
+    <header>
+        <nav class="navigation">
+            <div class="icon"><img src="../Yap Yan Cheng/logo.jpg" alt="logo" usemap="#logomap">
+                <map name="logomap">
+                    <area shape="rect" coords="0,0,180,70" href="../Yap Yan Cheng/description.html" target="_blank">
+                </map>
+            </div>
+            <ul>
+                <li><a href="../Gan Khai Boon/home.html" alt="home">Home</a></li>
+                <li><a href="../Gan Khai Boon/aboutus.html" alt="aboutUs">About</a></li>
+                <li><a href="../Ng Lee Kai/contact.html" alt="contactUs">Contact</a></li>
+                <li><a href="../Ng Lee Kai/login.html" alt="login">Login</a></li>
+                <li><a href="../Jed Tan Hou Jie/html/productpage.html" alt="product">Product</a></li>
+                <li><a href="../Yap Yan Cheng/membership.html" alt="membership">Membership</a></li>
+                <li><a href="../Chin Shun Yon/sales_main_page.html" alt="sales">Sales</a></li>
+                <li><a href="../Jed Tan Hou Jie/html/customer service.html" alt="customerSupport">Customer Support</a></li>
+                <li><a href="../Jed Tan Hou Jie/html/FAQ2.HTML" alt="faq">FAQ</a></li>
+                <li><a href="../Yap Yan Cheng/feedback.html" alt="feedback">Feedback</a></li>
+                <li><a href="../Yap Yan Cheng/promotion.html" alt="promotion">Promotion</a></li>
+            </ul>
+        </nav>
+    </header>
+<body>
+
+<section class="form">
+<h1 class="head">
+    How is your experiece?Would you mind to take some time and fill out this feedback form,
+    we'll really appreaciate it.(The ones with (*) is required to fill in)
+</h1>
+<form id="feedback" action="../Yap Yan Cheng/submit.html" method="get" target="_blank">
+<fieldset class="custInfo">
+<legend>
+    Customer feedback
+</legend>
+<div class="formRow">
+<label for="name">Name*</label>
+<input name="custName" required id="name" type="text" placeholder="First Name and Last Name" />
+
+</div>
+</br></br>
+<div class="formRow">
+<label for="mail">Email*</label>
+<input name="custMail" required id="mail" type="email" placeholder="blackpineapple@gmail.com"/>
+</div>
+</br></br>
+<div class="formRow">
+<label for="phone">Phone Number*</label>
+<input name="custPhone" required id="phone" type="tel" placeholder="(nnn)-nnnnnnn"
+ pattern="[0-9]{3}-[0-9]{7}"/>
+</div>
+</br></br>
+<div class="formRow">
+    <label>Do you like our service?</label>
+    <fieldset class="optGroup">
+        <label for="serv1">Strongly Dislike</label>
+        <input name="service" id="serv1" value="1" type="radio"/>
+        <label for="serv2">Dislike</label>
+        <input name="service" id="serv2" value="2" type="radio"/>
+        <label for="serv3">Neutral</label>
+        <input name="service" id="serv3" value="3" type="radio"/>
+        <label for="serv4">Like</label>
+        <input name="service" id="serv4" value="4" type="radio"/>
+        <label for="serv5">I Love Black Pineapple</label>
+        <input name="service" id="serv5" value="5" type="radio"/>
+    </fieldset>
+</div>
+</br></br>
+<div class="formRow">
+    <lable>How fast is our delivery time?</lable>
+    <fieldset class="optGroup">
+        <label for="del1">My grandma can send it faster</label>
+        <input name="delivery" id="del1" value="1" type="radio"/>
+        <label for="del2">A bit slow</label>
+        <input name="delivery" id="del2" value="2" type="radio"/>
+        <label for="del3">Standard</label>
+        <input name="delivery" id="del3" value="3" type="radio"/>
+        <label for="del4">Quite fast</label>
+        <input name="delivery" id="del4" value="4" type="radio"/>
+        <label for="del5">Lightspeed</label>
+        <input name="delivery" id="del5" value="5" type="radio"/>
+    </fieldset>
+</div>
+</br></br>
+<div class="formRow">
+    <lable>Would you recommend our products to others?</lable>
+    <fieldset class="optGroup">
+        <lable for="recYes">Yes</lable>
+        <input name="recommend" id="recYes" value="Yes" type="radio"/>
+        <lable for="recNo">No</lable>
+        <input name="recommend" id="recNo" value="No" type="radio"/>
+    </fieldset>
+</div>
+</br></br>
+<div class="formBox">
+<lable for="comBox">Please leave any additional messages if needed</lable>
+<textarea name="custExp" id="comBox" placeholder="Give us your honest opinion"></textarea>
+</div>
+</fieldset>
+</br></br>
+<div>
+    <button type="submit" value="Submit"><span></span>SUBMIT</button>
+    <button type="reset" value="Reset"><span></span>RESET</button>
+</div>
+</form>
+</section>
+</body>
+
+
+<footer class="footer">
+    <nav>
+        <ul class="footPhone">
+            <p>Products</p>
+            <a href="../Gan Khai Boon/pinewatch.html">PineWatch</a><br>
+            <a href="../Jed Tan Hou Jie/html/blackpineappleV5.html">BlackPineV5</a><br>
+            <a href="../Jed Tan Hou Jie/html/blackpineappleV4.html">BlackPineV4</a><br>
+            <a href="../Jed Tan Hou Jie/html/blackpineappleV3.html">BlackPineV3</a><br>
+            <a href="../Jed Tan Hou Jie/html/blackpineappleV2.html">BlackPineV2</a><br>
+            <a href="../Jed Tan Hou Jie/html/blackpineappleV1.html">BlackPineV1</a><br>
+        </ul>
+    </nav>
+    <nav>
+        <ul class="footService">
+            <p>Services</p>
+            <a href="../Gan Khai Boon/amani.html">Amani</a><br>
+        </ul>
+    </nav>
+    <nav>
+        <ul class="footSupport">
+            <p>Support</p>
+            <a href="../Jed Tan Hou Jie/html/customer service.html">Customer Service</a><br>
+            <a href="../Ng Lee Kai/contact.html">Contact us</a><br>
+            <a href="../Chin Shun Yon/terms_n_conditions.html">Terms and Conditions</a><br>
+            <a href="../Jed Tan Hou Jie/html/FAQ2.HTML">FAQ</a><br>
+            <a href="../Yap Yan Cheng/feedback.html">Feedback</a><br>
+            
+        </ul>
+    </nav>
+    <nav>
+        <ul class="footAbout">
+            <p>About Pine</p>
+            <a href="../Gan Khai Boon/aboutus.html">Our story</a><br>
+            <a href="../Yap Yan Cheng/promotion.html">Promotions</a><br>
+        </ul>
+    </nav>
+    <nav>
+        <ul class="footMember">
+            <p>Membership</p>
+            <a href="../Yap Yan Cheng/membership.html">Benefits</a><br>
+            <a href="../Ng Lee Kai/create.html">Registration</a><br>
+            <a href="../Yap Yan Cheng/cancle.html">Cancellation</a><br>
+            <a href="../Ng Lee Kai/login.html">Log in</a><br>
+        </ul>
+    </nav>
+
+    <p id="ending">Copyright © 2023 BlackPineApple Inc. All rights reserved.</p>
+</footer>
+</html>

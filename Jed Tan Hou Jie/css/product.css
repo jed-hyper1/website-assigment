@@ -1,0 +1,146 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;  
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    transition: background-color 0.5s ease;
+}
+
+.part1 {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+
+.part1 > p{
+    font-size: 25px;
+}
+
+.part2 {
+    color: black;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+#title {
+    text-align: center;
+    font-size: 70px;
+}
+
+#pinewatch {
+    float: right;
+    height: 620px;
+}
+
+#er {
+    font-size: 60px;
+}
+
+#chip {
+    display: block;
+    margin-left: 150px;
+    margin-right: auto;
+}
+
+#chipDes {
+    padding-left: 500px;
+}
+
+#clenchFist {
+    font-size: 50px;
+    text-align: center;
+}
+
+#fist {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gestureDes {
+    padding-left: 250px;
+    font-size: 20px;
+}
+
+#healthPic {
+    display: block;
+    margin-left: 150px;
+    margin-right: auto;
+}
+
+#healthDes {
+    font-size: 20px;
+}
+
+#strap{
+    font-size: 20px;
+}
+
+.strapstyle > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.strapstyle > p {
+    text-align: center;
+}
+#loop{
+    width: 80%;
+}
+
+#sport {
+    width: 40%;
+}
+
+#stainlessSteel {
+    width: 50%;
+}
+
+#special{
+    width: 30%;
+}
+
+#holdingPine {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+div.information {
+    font-size: 15px;
+    text-align: center;
+}
+
+#inforp9 {
+    width: 5%;
+}
+
+#inforhealth {
+    width: 7%;
+}
+
+#inforcycle {
+    width: 6%;
+}
+
+#inforsos {
+    width: 8%;
+}
+
+#inforwater {
+    width: 7%;
+}
+
+#inforgps {
+    width: 10%;
+}
+
+#inforbattery {
+    width: 7%;
+}
